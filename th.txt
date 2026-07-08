@@ -1,0 +1,35 @@
+Python 
+------
+Python is a high level, interpreted ,  general purpose , object oriented programming language 
+
+Developed by Guido van Rossum 1989 and first released in 1991
+
+Beginner Friendly 
+Easier Syntax 
+Cross Platform 
+Huge Community 
+lots of libraries (powerful)
+
+Application 
+-----------
+AI / ML 
+Data Science
+Web development 
+game development 
+Cyber Security 
+Cloud Computing 
+
+interpreted language
+
+<================================================================>
+Python -> .py
+
+1. no data types 
+2. no curly braces 
+3. we have colon over here 
+4. python file requires indentation 
+
+# single line comment 
+'''
+Multi line comment 
+'''
