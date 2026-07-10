@@ -1,0 +1,35 @@
+1. Menu-driven program:
+   1. Area of Circle
+   2. Area of Rectangle
+   3. Area of Triangle
+   4. Exit
+
+2. Create a calculator with menu:
+    1. Add
+    2. Subtract
+    3. Multiply
+    4. Divide
+    5. Modulo / modulus
+
+3. Simulate a simple ATM:
+    1. Check Balance
+    2. Withdraw
+    3. Deposit
+    4. Exit
+
+4. Enter a country code:
+   1. India
+   2. USA
+   3. UK
+   Then enter a city code (use nested switch):
+   - India → 1. Delhi, 2. Mumbai
+   - USA   → 1. New York, 2. Texas
+   - UK    → 1. London, 2. Manchester
+
+5. Vehicle Service Center:
+   - Enter Vehicle Type: 1. Car  2. Bike
+   - Then enter Service Type:
+     - For Car: 1. Oil Change, 2. Full Service
+     - For Bike: 1. Chain Check, 2. General Service
+
+6. Enter a traffic light color (r/g/y) and print the message (Stop / Wait / Go).

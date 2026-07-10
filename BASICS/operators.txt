@@ -1,0 +1,15 @@
+Arithmetic operator 
++ - * / % 
+// (floor division)      ** (exponent)
+
+relational
+<   >    <=    >=    ==   !=
+
+assignment operator 
+=  +=  -=   *=  /=  %=   //=    **= 
+
+logical 
+and   or   not 
+
+membership operator 
+in    not in
