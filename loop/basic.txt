@@ -1,0 +1,16 @@
+Loop 
+
+1. for 
+    when number of iterations are known 
+    range 
+        for i in range(stop) (starts from 0 and ends at stop -1)
+        for i in range(start , stop)  (starts from start and ends at stop - 1)
+        for i in range(start,stop , step)  (starts from start , ends at stop-1 and increments or decrements by step )
+
+    iterables 
+    for i in iterable:
+        # logic
+
+
+2. while 
+    when number of iterations are not known 
