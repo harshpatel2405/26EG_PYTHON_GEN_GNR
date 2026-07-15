@@ -1,0 +1,62 @@
+==========================================
+Question 1: Electricity Bill Calculator
+==========================================
+
+Create a Python program to calculate electricity bills for N customers.
+
+Requirements:
+
+1. Enter the number of customers (N).
+
+2. For each customer, enter:
+   - Customer Name
+   - Units Consumed
+
+3. Calculate the bill using the following rules:
+   - First 100 units  -> ₹5 per unit
+   - Next 100 units   -> ₹8 per unit
+   - Remaining units  -> ₹10 per unit
+
+4. Display for each customer:
+   - Customer Name
+   - Units Consumed
+   - Total Bill
+
+5. After processing all customers, display:
+   - Total Revenue
+   - Highest Bill Amount
+   - Lowest Bill Amount
+   - Average Bill
+   - Number of Customers whose bill is more than ₹2000
+
+==========================================
+Question 2: ATM Transaction Report
+==========================================
+
+Create a Python program to generate a transaction report for N customers.
+
+Requirements:
+
+1. Enter the number of customers (N).
+
+2. For each customer, enter:
+   - Customer Name
+   - Deposit Amount
+   - Withdrawal Amount
+
+3. Calculate:
+   Balance = Deposit - Withdrawal
+
+4. Display for each customer:
+   - Customer Name
+   - Deposit Amount
+   - Withdrawal Amount
+   - Remaining Balance
+
+5. After processing all customers, display:
+   - Total Deposit Amount
+   - Total Withdrawal Amount
+   - Highest Balance
+   - Lowest Balance
+   - Average Balance
+   - Number of Customers having balance greater than ₹10,000
