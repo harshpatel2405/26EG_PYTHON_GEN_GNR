@@ -1,0 +1,17 @@
+* Task 1 : make a list of fruits 
+* 1. convert all fruit names to uppercase
+* 2. convert all fruits names to lowercase
+* 3. remove last fruits from the list 
+* 4. add 'Chikoo' in the fruits  
+
+* INPUT : ['Apple','Banana','Mango']
+
+* 2. Longest Name
+*     Given a list of names.
+*     names = ["Rahul", "Ankit", "Krishna", "Jay", "Siddharth"]
+*     Find the longest name.
+ 	
+* 3. Count Names Starting with A
+*     Given a list of names.
+*     names = ["Amit", "Rohan", "Akash", "Ajay", "Kiran"]
+*     Count how many names start with A.

@@ -1,0 +1,11 @@
+List
+----
+1. Mutable 
+2. Iterable 
+3. Subsciptable 
+4. heterogenous
+5. Symbol : []
+6. Data type : list
+
+substring / slice 
+comprehension / if_else comprehension
