@@ -46,6 +46,18 @@ ans = "Hello " + " World"
 print(ans) 
 
 # * replace 
-print(name.replace("ha","X"))
+print(name.replace("h","X"))
 print(name)
 
+# * take a phone number from user and update every even character 
+str = input("Enter a phone number : ")
+new_data = ""
+if(len(str) == 10):
+    for i in range(10):
+        if(i % 2 == 0):
+            new_data += '*'
+            continue
+        new_data += str[i]
+else:
+    print("Length should be 10")
+print(new_data)
