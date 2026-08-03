@@ -1,0 +1,36 @@
+1.  Calculate the Product of All Elements
+    Practice Problem: Multiply every number in a list together to find the total product.
+
+Given Input: Factors: [2, 3, 5, 7]
+Expected Output: Product: 210
+
+2.  Count Even and Odd Numbers
+    Practice Problem: Given a list of integers, iterate through the items and count how many are even and how many are odd.
+
+
+Given Input: Numbers: [10, 21, 4, 45, 66, 93, 11]
+
+Expected Output:
+Even numbers: 3
+Odd numbers: 4
+
+3.  Swap Two Elements at Given Indices
+    Practice Problem: Write a script to swap the positions of two elements in a list based on their indices.
+
+Given Input:
+
+List: [23, 65, 19, 90]
+Indices to Swap: 0 and 2
+
+Expected Output:
+Original: [23, 65, 19, 90]
+Swapped: [19, 65, 23, 90]
+
+4. Check if List Contains a Specific Item
+Practice Problem: Write a check to see if a certain value exists within a list and print a message based on the result.
+
+Given Input:
+Inventory: ["Laptop", "Mouse", "Monitor", "Keyboard"]
+Target: "Tablet"
+
+Expected Output: Is Tablet in inventory? False
