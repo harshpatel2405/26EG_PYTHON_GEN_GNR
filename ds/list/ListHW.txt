@@ -15,3 +15,100 @@
 *     Given a list of names.
 *     names = ["Amit", "Rohan", "Akash", "Ajay", "Kiran"]
 *     Count how many names start with A.
+
+<==================================================================>
+# 🛒 Real-World Problem: E-Commerce Store Inventory Analysis
+
+A shopping website stores the prices of its products in a list.
+
+prices = [250, 1200, 850, 4500, 300, 999, 5500, 1800, 750, 150]
+
+As a Python developer, your task is to analyze and update the product list.
+
+------------------------------------------------------------
+Part 1 – List Slicing
+------------------------------------------------------------
+
+1. Display the first 5 products.
+
+2. Display the last 5 products.
+
+3. Display every alternate product.
+
+4. Display the complete list in reverse order.
+
+------------------------------------------------------------
+Part 2 – List Comprehension
+------------------------------------------------------------
+
+5. Create a new list containing only products costing more than ₹1000.
+
+6. Create another list containing only products costing ₹1000 or less.
+
+7. Create a new list where:
+   - Products above ₹3000 get a 30% discount.
+   - Products above ₹1000 get a 15% discount.
+   - Remaining products stay unchanged.
+
+------------------------------------------------------------
+Part 3 – If-Else List Comprehension
+------------------------------------------------------------
+
+8. Create a category list based on the following rules:
+
+   - Price > ₹3000  → "Premium"
+   - Price > ₹1000  → "Standard"
+   - Otherwise      → "Budget"
+
+Example Output:
+
+["Budget", "Standard", "Budget", "Premium", ...]
+
+------------------------------------------------------------
+Part 4 – Analysis
+------------------------------------------------------------
+
+9. Find and display:
+
+   - Highest price
+   - Lowest price
+   - Average price
+   - Total inventory value
+
+------------------------------------------------------------
+Part 5 – Challenge
+------------------------------------------------------------
+
+10. Replace every product costing less than ₹500 with ₹500.
+
+11. Count how many products belong to each category:
+
+   - Premium
+   - Standard
+   - Budget
+
+<===============================================================>
+# 🛒 Question: Shopping Cart Management
+
+An online shopping website stores the prices of products in a list.
+
+prices = [250, 1200, 850, 4500, 300, 999, 5500, 1800]
+
+Perform the following tasks:
+
+1. Add a new product price entered by the user.
+2. Insert ₹750 at the 3rd position.
+3. Remove the product priced at ₹999.
+4. Display the first 4 products using list slicing.
+5. Display every alternate product using slicing.
+6. Display the list in reverse using slicing.
+7. Create a new list containing only products costing more than ₹1000.
+8. Create another list where:
+   - Price > ₹3000 → Apply 20% discount.
+   - Otherwise → Keep the price unchanged.
+9. Find and display:
+   - Highest price
+   - Lowest price
+   - Average price
+10. Sort the list in ascending order and then display it in descending order.
+
