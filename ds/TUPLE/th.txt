@@ -1,0 +1,7 @@
+Tuple
+-----
+Tuple is immutable
+datatype : tuple 
+iterable
+symbol : ()
+subscriptable -- can be accessed with index
