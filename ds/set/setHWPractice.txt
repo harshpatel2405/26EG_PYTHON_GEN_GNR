@@ -1,0 +1,247 @@
+1. Common Students
+
+Two classes have the following students:
+
+class_a = {"Amit", "Riya", "Karan", "Neha", "Jay"}
+class_b = {"Riya", "Jay", "Rahul", "Pooja", "Neha"}
+
+Find:
+1. Students present in both classes.
+2. Students present only in Class A.
+3. Students present only in Class B.
+4. All unique students from both classes.
+
+
+2. Duplicate Number Detector
+
+Take 10 numbers from the user and store them in a list.
+
+Find:
+1. All duplicate numbers.
+2. All unique numbers.
+3. Total number of duplicate values.
+
+Example:
+Input: 10 20 30 20 40 10 50 30 60 70
+
+Expected:
+Duplicate numbers: {10, 20, 30}
+Unique numbers: {40, 50, 60, 70}
+
+
+3. Common Products
+
+Two shops have the following products:
+
+shop1 = {"Laptop", "Mouse", "Keyboard", "Monitor", "Printer"}
+shop2 = {"Keyboard", "Mouse", "Speaker", "Printer", "Webcam"}
+
+Find:
+1. Products available in both shops.
+2. Products available only in Shop 1.
+3. Products available only in Shop 2.
+4. Products available in either shop.
+
+
+4. Course Enrollment
+
+Three courses have enrolled students:
+
+python = {"Amit", "Riya", "Karan", "Neha", "Jay"}
+java = {"Riya", "Karan", "Rahul", "Jay"}
+web = {"Amit", "Neha", "Jay", "Pooja"}
+
+Find:
+1. Students enrolled in all three courses.
+2. Students enrolled in Python and Java.
+3. Students enrolled in Python but not Java.
+4. Total unique students across all three courses.
+
+
+5. Unique Words
+
+Take a sentence from the user.
+
+Create a set containing all unique words.
+
+Example:
+Input: python is easy and python is powerful
+
+Output:
+{'python', 'is', 'easy', 'and', 'powerful'}
+
+Also display the number of unique words.
+
+
+6. Missing Numbers
+
+You have numbers from 1 to 10, but some numbers are missing:
+
+numbers = {1, 2, 3, 5, 7, 8, 10}
+
+Find the missing numbers using set operations.
+
+Expected:
+Missing numbers: {4, 6, 9}
+
+
+7. Remove Common Elements
+
+Given:
+
+a = {10, 20, 30, 40, 50}
+b = {30, 40, 50, 60, 70}
+
+Create a new set containing only elements that are not common between the two sets.
+
+Expected:
+{10, 20, 60, 70}
+
+
+8. Student Attendance
+
+A class has 15 students:
+
+all_students = {
+    "Amit", "Riya", "Karan", "Neha", "Jay",
+    "Rahul", "Pooja", "Dev", "Raj", "Meera",
+    "Tina", "Vijay", "Arjun", "Nisha", "Kunal"
+}
+
+Today's attendance:
+
+present = {
+    "Amit", "Riya", "Karan", "Jay",
+    "Rahul", "Dev", "Raj", "Tina"
+}
+
+Find:
+1. Present students.
+2. Absent students.
+3. Number of present students.
+4. Number of absent students.
+5. Whether "Neha" was present.
+
+
+9. Set Method Practice
+
+Create:
+
+numbers = {10, 20, 30, 40, 50}
+
+Perform the following operations:
+1. Add 60.
+2. Add multiple values 70, 80, 90.
+3. Remove 30.
+4. Safely remove 100.
+5. Remove and display a random element.
+6. Check whether 40 exists.
+7. Clear the entire set.
+
+Use appropriate set methods for each operation.
+
+
+10. Unique Characters
+
+Take a word from the user.
+
+Find:
+1. All unique characters.
+2. Number of unique characters.
+3. Whether the word contains duplicate characters.
+
+Example:
+Input: programming
+
+Output:
+Unique characters: {'p', 'r', 'o', 'g', 'a', 'm', 'i', 'n'}
+Number of unique characters: 8
+Duplicate characters: Yes
+
+
+11. Permission Checker
+
+A system has required permissions:
+
+required = {"read", "write", "delete"}
+
+A user has:
+
+user_permissions = {"read", "write"}
+
+Check:
+1. Does the user have all required permissions?
+2. Which permissions are missing?
+3. Which permissions does the user have that aren't required?
+
+Expected:
+All permissions: False
+Missing: {'delete'}
+Extra: set()
+
+
+12. Unique Numbers From Two Lists
+
+Given:
+
+list1 = [10, 20, 30, 20, 40, 50]
+list2 = [30, 40, 60, 70, 60, 80]
+
+Create a set containing all unique numbers from both lists.
+
+Then find:
+1. Common numbers.
+2. Numbers only in list1.
+3. Numbers only in list2.
+
+
+13. Set Relationship Checker
+
+Given:
+
+a = {10, 20, 30}
+b = {10, 20, 30, 40, 50}
+
+Check:
+1. Whether a is a subset of b.
+2. Whether b is a superset of a.
+3. Whether a and b are disjoint.
+
+Use appropriate set methods.
+
+
+14. Vowel Detector
+
+Take a sentence from the user and use a set of vowels:
+
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+Find all unique vowels present in the sentence.
+
+Example:
+Input: I am learning Python
+
+Output:
+{'a', 'e', 'i', 'o'}
+
+Also display the number of different vowels found.
+
+
+15. Mini Challenge – Event Participants
+
+Three events have participants:
+
+coding = {"Amit", "Riya", "Karan", "Jay", "Neha"}
+quiz = {"Riya", "Jay", "Rahul", "Neha", "Pooja"}
+sports = {"Karan", "Jay", "Rahul", "Dev", "Pooja"}
+
+Find:
+1. Students participating in all three events.
+2. Students participating in exactly two events.
+3. Students participating in only one event.
+4. Total number of unique participants.
+5. Students participating in coding but not quiz.
+6. Students participating in quiz or sports but not both.
+
+Restriction:
+Try to solve this using set operations without using loops.

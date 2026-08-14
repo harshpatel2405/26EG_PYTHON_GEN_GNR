@@ -1,0 +1,8 @@
+symbol : {}
+only unique elements are allowed
+iterable 
+subscriptable X
+
+num = {10,20,30}
+num = set()
+
