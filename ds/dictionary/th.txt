@@ -1,0 +1,14 @@
+dictionary
+---------
+key-value pair 
+key is unique 
+values may not be unique
+symbol : {}
+datatype : dict
+not subscriptable
+
+student = {
+    "name" : "harsh",
+    "age" :22,
+    'marks':98
+}

@@ -236,9 +236,16 @@ quiz = {"Riya", "Jay", "Rahul", "Neha", "Pooja"}
 sports = {"Karan", "Jay", "Rahul", "Dev", "Pooja"}
 
 Find:
-1. Students participating in all three events.
+1. Students participating in all three events. ANS =  CODING.UNION(QUIZ)  ANS1 = ANS.UNION(SPORTS)
 2. Students participating in exactly two events.
+CODING.INTERSECTION(QUIZ)
+QUIZ.INTERSECTION(SPORTS)
+CODING.INTERSECTION(SPORTS)
+
 3. Students participating in only one event.
+
+
+
 4. Total number of unique participants.
 5. Students participating in coding but not quiz.
 6. Students participating in quiz or sports but not both.
