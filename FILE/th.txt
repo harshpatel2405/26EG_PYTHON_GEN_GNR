@@ -1,0 +1,20 @@
+File 
+----
+to store data permanenetly 
+memory 
+
+
+output -- file 
+
+
+file 
+----
+name , mode
+        r , w, a, r+ , w+ , a+
+
+r - read (cannot create new file but can read old file )
+w - write(can create new file and can write in it and it will override old data )
+a -  append (can create new file and can add data after old data )
+
+Hello World
+Namaste Duniya
