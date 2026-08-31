@@ -1,0 +1,32 @@
+Function
+--------
+a block of code which can be reused 
+
+-------
+1. without return type and without  args 
+2. without return type and with args  
+3. with return type and without args  
+4. with return type and with args  
+
+def function_name(args1 , args2 , ..., ):
+    # logic 
+
+break    -- breaks current loop 
+continue -- skip curent / particular iteration 
+pass     -- it is just there 
+
+
+--------------------
+*args -> args is variable name any other can also be taken 
+* -> get n number of args from user and store it in tuple
+
+**kwargs
+key - value args
+** -> convert args by user into dictionary
+default 
+lambda
+
+
+HOF  - higher order functions 
+Decorators 
+mpa filter reduce 
